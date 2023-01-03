@@ -1,0 +1,81 @@
+<!-- Create a layout using css grid -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .image {
+            display: flex;
+            float: left;
+            width: 20px;
+            height: 44px;
+            padding-top: 20px;
+        }
+
+        header {
+            height: 12vh;
+            background-color: black;
+            color: azure;
+        }
+
+        ul {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            list-style: none;
+            padding: 22px 15vw;
+        }
+
+        .container2 {
+            background-color: white;
+            color: aqua;
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: space-between;
+        }
+
+        .class1 {
+            height: 20vh;
+            width: 40vw;
+            background-color: brown;
+        }
+
+        .class2 {
+            height: 20vh;
+            width: 40vw;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="image"><img src="image.jpg"></div>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Career</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="container2">
+        <div class="class1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque temporibus corrupti omnis
+            culpa nesciunt recusandae nulla magnam provident cupiditate inventore.</div>
+        <div class="class2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae perspiciatis
+            mollitia quis rem, numquam aut molestias iste magnam voluptate labore velit corporis, expedita ipsum.</div>
+    </div>
+</body>
+
+</html>

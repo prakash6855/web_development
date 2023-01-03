@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background image</title>
+<link rel="stylesheet" href="style.css">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        background-color: rgb(47, 47, 139);
+        color: white;
+    }
+    body{
+        background-image: url("image.jpg");
+        background-repeat: no-repeat;
+        /*
+         In background-repeat property if we go for no-repeat the image will not be repeated,
+        if we go for repeat-x; then it will effect the image in x-directon only
+         if we go for repeat:y; then it will effect the image in y-direction.
+        if we go for repeat:space then it will effect the adjust the image in the given space provided will full repeated size.
+         */
+    }
+</style>
+</head>
+<body>
+    <div class="container">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, earum libero. Debitis non provident natus magnam necessitatibus ut doloremque repudiandae consequatur, commodi vero veniam aperiam sed esse hic incidunt explicabo autem eligendi!</div>
+</body>
+</html>

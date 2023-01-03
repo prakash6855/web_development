@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 2px solid green;
+    width: 413px;
+    height: 1600px;
+background-color: rgb(70, 30, 107);
+background-size: auto;
+color:rgb(12, 10, 10);
+background-image: url(image.jpg);
+background-repeat: no-repeat;
+/* background-size: auto; */
+/* background-position: center; */
+background-attachment: scroll;
+/* scroll:-The background is fixed relative to the element itself and does not scroll with its contents.
+fixed:- The background is fixed relative to the viewport. Even if an element has a scrolling mechanism, the background doesn't move with the element. 
+local:- The background is fixed relative to the element's contents. If the element has a scrolling mechanism, the background scrolls with the element's contents, and the background painting area and background positioning area are relative to the scrollable area of the element rather than to the border framing them.
+*/
+}

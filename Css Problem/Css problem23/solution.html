@@ -1,0 +1,74 @@
+<!-- Create the layout using flexbox -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgb(226, 203, 203);
+            color: aqua;
+
+        }
+
+        ul {
+            padding: 40px;
+            color: blueviolet;
+        }
+
+        li {
+            display: inline;
+            padding: 40px 50px;
+        }
+
+        .box1 {
+            height: 30vh;
+            width: 30vw;
+            background-color: brown;
+            color: bisque;
+        }
+
+        .box2 {
+            height: 30vh;
+            width: 30vw;
+            background-color: rgb(34, 28, 28);
+            color: rgb(240, 149, 38);
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+    <div class="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, a exercitationem voluptatibus vel
+        praesentium reprehenderit eligendi cum animi, suscipit, quas soluta iusto aliquam recusandae dolores
+        consequuntur? Excepturi cumque aliquid culpa, a dolore eligendi unde totam quibusdam illo laborum vitae repellat
+        officia placeat ipsum, similique distinctio earum, quam hic vero quisquam.</div>
+    <div class="box2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, quibusdam dolor. Dolor minima minus
+        tenetur perferendis perspiciatis quaerat ab architecto veritatis neque? Repudiandae ab similique a tempora.
+        Sequi, soluta rerum! Cumque a reprehenderit dolorum commodi tenetur! Necessitatibus quisquam doloribus
+        exercitationem possimus voluptatibus consectetur molestias alias consequatur, laborum aliquid neque quae,
+        doloremque optio voluptatum perferendis aut nostrum et. Nobis, ad eum.</div>
+    </div>
+</body>
+
+</html>

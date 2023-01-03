@@ -1,0 +1,68 @@
+<!-- Add a box-sizing property to content box. What chnages did you notice? -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            height: 1000px;
+            background-color: black;
+            color: aqua;
+            margin: 30px 20px 30px 10px;
+            border: 30px dotted red;
+            padding: 25px;
+        }
+
+        .content {
+            height: 200px;
+            width: 100%;
+            background-color: blue;
+            color: azure;
+            margin: 40px 30px 40px 30px;
+            border: 70px dashed green;
+            box-sizing: border-box;
+        }
+
+        footer {
+            height: auto;
+            background-color: brown;
+            color: beige;
+        }
+
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <header>
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT US</li>
+                <li>CAREER</li>
+                <li>OUR PRODUCTS</li>
+                <li>CONTACT US</li>
+            </ul>
+            <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, quod similique. Optio
+                earum hic blanditiis amet officiis quos possimus fuga quis suscipit? In labore quis, accusantium iusto
+                unde
+                natus hic reiciendis veritatis, possimus at cupiditate? </div>
+        </header>
+    </div>
+    <footer>
+        <p class=center>&copy;All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>

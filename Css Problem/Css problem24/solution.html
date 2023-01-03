@@ -1,0 +1,75 @@
+<!-- create the nav bar using flex box -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container1 {
+            background-color: rgb(169, 169, 185);
+            display: flex;
+            padding: 7vh;
+        }
+
+        .image {
+            height: 30px;
+            width: 30px;
+        }
+
+        li {
+            color: black;
+            list-style: none;
+            display: inline;
+            padding: 150px;
+        }
+        .container2{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 50vh;
+        }
+
+        .box1 {
+            width: 30vw;
+            height: 30vh;
+            background-color: black;
+            color: rgb(53, 94, 94);
+        }
+
+        .box2 {
+            width: 30vw;
+            height: 30vh;
+            background-color: blue;
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="image"><img src="image.jpg"></div>
+        <header>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="container2">
+        <div class="box1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam minus repellendus ab, harum
+            dolor magnam debitis magni, incidunt natus est cumque obcaecati officiis alias molestiae!</div>
+        <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptates quis omnis pariatur
+            quidem sunt quia rem! Repellendus, consequatur animi?</div>
+    </div>
+</body>
+</html>

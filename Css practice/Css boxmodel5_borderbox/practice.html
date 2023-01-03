@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border box</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box1{
+            background-color: blue;
+            margin: 30px;
+            height: 1000px;
+            width: 300px;
+            border: 2px solid black;
+        }
+        .box2{
+        background-color: brown;
+        height: 300px;
+        width:  100%;
+        /* margin: 5px; */
+        padding: 6px;
+        border: 10px solid green;    
+        box-sizing: border-box;  
+        }
+    </style>
+</head>
+<!-- Note:- In div class box 2 is child and box 1 is parent -->
+<body>
+    <div class="box1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At officia eum id ab doloribus natus velit laudantium. Quasi, placeat. Odio, vel. Sapiente in accusamus iusto iste laboriosam, explicabo quasi est quae rerum temporibus suscipit inventore porro eveniet nisi? Asperiores temporibus aut minima, tenetur omnis pariatur illum deserunt sapiente totam perferendis vel architecto natus magni sequi velit neque repellat quam consequuntur accusamus ullam eius praesentium voluptatem.
+    <div class="box2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque amet molestiae assumenda aut, impedit inventore at, dolor eaque ipsa consectetur enim quaerat voluptate in incidunt! Ex sapiente recusandae necessitatibus. Harum nobis cupiditate assumenda maiores corrupti quia fugiat, culpa distinctio consectetur similique eius voluptatem, tenetur quisquam, cum saepe cumque perferendis architecto quibusdam recusandae earum unde.</div>
+</div>
+</body>
+</html>

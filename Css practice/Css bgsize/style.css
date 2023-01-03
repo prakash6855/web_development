@@ -1,0 +1,20 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 2px solid blue;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(10, 194, 10);
+    color: blue;
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+/* background-size: contain;  /* Scales the image as large as possible within its container without cropping or stretching the image. If the container is larger than the image, this will result in image tiling, unless the background-repeat property is set to no-repeat.   */
+/* background-size: cover;  /*Scales the image (while preserving its ratio) to the smallest possible size to fill the container (that is: both its height and width completely cover the container), leaving no empty space. If the proportions of the background differ from the element, the image is cropped either vertically or horizontally.  */
+background-size: auto;  /*Scales the background image in the corresponding direction such that its intrinsic proportions are maintained.*/
+/* background-size: 344px; If we set the width then it will set the width in such a way that aspect ratio will be maintained*/
+/* background-size: 344px 600px; If we set the width and heght value then we use such property*/
+}
+

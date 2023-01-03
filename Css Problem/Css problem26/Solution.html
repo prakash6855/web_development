@@ -1,0 +1,51 @@
+<!-- Create a header with content using css grid -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: black;
+            color:azure;
+        }
+        ul{
+            display: inline-grid;
+            height: 5vw;
+            grid-template-columns:  auto auto auto auto auto;
+        }
+        ul li{
+            list-style: none;
+            margin:  23px;
+        }
+        .container{
+            background-color: blue;
+            color: rgb(24, 18, 18);
+            height:15vw;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Products</li>
+                <li>Career</li>
+                <li>Contact us</li>
+            </ul>
+        </nav>
+    </header>
+</body>
+<div class="container">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore dolores ea tenetur accusantium dignissimos. Earum veritatis quibusdam voluptates placeat aut.</div>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>align-self</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            height: 100vh;
+            background-color: green;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .box1 {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            border: 2px solid yellow;
+            color: azure;
+            order: 3;
+        }
+        .box2 {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            border: 2px solid yellow;
+            color: azure;
+            order: 2;
+        }
+
+        .box3 {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            border: 2px solid yellow;
+            color: azure;
+            order: 1;
+        }
+
+        .box4 {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            border: 2px solid yellow;
+            color: azure;
+            order: 4;
+            align-self:flex-end;
+            /* The align-self CSS property overrides a grid or flex item's align-items value. In Grid, it aligns the item inside the grid area. In Flexbox, it aligns the item on the cross axis. */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non!</div>
+        <div class="box2">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+        <div class="box3">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+        <div class="box4">Lorem ipsum dolor sit amet consectetur.</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 2px solid green;
+    width: 600px;
+    height: 600px;
+background-color: rgb(70, 30, 107);
+background-size: auto;
+color:rgb(12, 10, 10);
+background-image: url(image.jpg);
+background-repeat: no-repeat;
+/* background-size: auto; */
+background-position: center;
+}

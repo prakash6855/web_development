@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Flight reservation form</h1>
+        <br>
+        <form action="form.php">
+            <input type="text" placeholder="Enter your name">
+            <!-- placeholder is used as to show the text before typing -->
+            <br>
+            <label for="transactionida">
+                <input type="radio" value="raman" name="male" id="transactionida">Economy class
+                <!-- transaction id used here as unique attribute like roll no used in a classroom and for and id used here will have the common value -->
+            </label>
+            <label for="transactionidb">
+                <input type="radio" value="pawan" name="male" id="transactionidb">Business class
+            </label>
+            <br>
+            <input type="checkbox" name="food coupon"  id="catering service" class="window">
+                <!-- checkbox is used here to confirm -->
+                <label for="catering service">want food service</label>
+                <br>
+                <textarea name="Travel" name="travel" cols="30" rows="10" placeholder="travel purpose"></textarea>
+                <select name="cab service" id="cab service">
+                    <option value="no-car">Select your car</option>
+                    <option value="audi">Audi</option>
+                    <option value="bmw">Bmw</option>
+                    <option value="porsche">Porsche</option>
+                    <option value="bus">Bus</option>
+                </select>
+        </form>
+    </div>
+</body>
+</html>

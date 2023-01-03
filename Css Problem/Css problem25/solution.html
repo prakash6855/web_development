@@ -1,0 +1,68 @@
+<!-- Create a layout with picture in nav bar with downside background and 3 boxes down to the background with some text-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100vw;
+            height:100vh;
+        }
+        header{
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            align-content:flex-end;
+            padding-top: 30px;
+        }
+        .container1 {
+            background-color: aquamarine;
+            height: 15vh;
+        }
+        .image{
+            position: relative;
+            right: 50px;
+        }
+        li {
+            color: blueviolet;
+            list-style: none;
+            display: inline;
+            padding-left: 20em;
+            align-content: center;
+        }
+        .image2{
+            border: 2px solid forestgreen;
+            height: 10vh;
+            background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000);
+            color:aqua;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container1">
+            <header>
+                <span class="image"><img src="image.jpg"></span>
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="image2">Background image</div>
+    </div>
+</body>
+</html>

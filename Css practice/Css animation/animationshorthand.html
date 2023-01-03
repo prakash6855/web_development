@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation shorthand</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background-color: aqua;
+        }
+
+            .box {
+            background-color: black;
+            color: beige;
+            width: 20vw;
+            height: 20vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* animation-name: widthanimate;
+            animation-duration: 1.5s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-iteration-count: 3;
+            animation-direction: alternate-reverse; */
+            animation: widthanimate 3s ease-in 0.5s 2 reverse;
+        } 
+
+        img {
+            width: 20vw;
+            height: 20vh;
+            animation: heightanimate 3s ease-in 0.5s 2 reverse;
+        }
+
+         @keyframes widthanimate {
+            from {
+                width: 30vw;
+                height: 50vh;
+            }
+
+            to {
+                width: 100vw;
+                height: 100vh;
+                ;
+            }
+        } 
+
+        @keyframes heightanimate{
+            from{
+                width: 30vw;
+                height: 50vh;
+            }
+            to{
+                width: 100vw;
+                height: 100vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">Hi there</div>
+        <div class="image"><img src="https://wallpaperaccess.com/full/185915.jpg" ></div>
+    </div>
+</body>
+
+</html>

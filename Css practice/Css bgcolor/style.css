@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* here we will use rgb value directly for the color which stands for,red,green and blue in class one*/
+.one{
+    background-color: rgb(175, 120, 120);
+    color: green;
+}
+/* here we will use hsl value directly to produce color effect which stands for hue,saturation and light */
+.two{
+    background-color: hsl(50, 33%, 25%);
+    color: yellow;
+}
+/* here we will use hex code for produce color effect to our class, the first two digits shows the color value for red then followed by green and blue */
+.three{
+    background-color: #705913;
+}
