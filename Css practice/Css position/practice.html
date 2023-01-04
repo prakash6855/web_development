@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        /* * {
+            margin: 0;
+            padding: 0;
+        } */
+
+        li {
+            /* display: inline; */
+            list-style: square;
+            list-style: square outside url('images.jpg');
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            height: 80px;
+             /* position:sticky; */
+            /*top: 0px; */
+            /* The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block (nearest block-level ancestor), including table-related elements, based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements. */
+            /* z-index: 1; */
+            /* The z-index CSS property sets the z-order of a positioned element and its descendants or flex items. Overlapping elements with a larger z-index cover those with a smaller one. */
+        }
+
+        p {
+            text-align: center;
+            border: 2px solid red;
+        }
+
+        .container {
+            background-color: aqua;
+            color: brown;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+            padding: 0px 34px;
+
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: chartreuse;
+            color: blueviolet;
+            /* position: static; */
+            /* The position CSS property sets how an element is positioned in a document. The top, right, bottom, and left properties determine the final location of positioned elements.The element is positioned according to the normal flow of the document. The top, right, bottom, left, and z-index properties have no effect. This is the default value. */
+            /* position: relative; */
+            /* The element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left,as shown bellow */
+            /* left: 10px; */
+            /* position: absolute; */
+            /* The element is removed from the normal document flow, and no space is created for the element in the page layout. It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block. Its final position is determined by the values of top, right, bottom, and left. */
+            position: fixed;
+            right: 0px;
+            /* The position: fixed property in CSS allows you to fix an element to a specific position on the page, regardless of scrolling. This can be useful for elements that you want to remain on the screen at all times, such as a navigation bar or a footer.It's important to note that position: fixed is relative to the browser window, not the page itself.  */
+        }
+
+        .box2 {
+            width: 200px;
+            height: 200px;
+            background-color: rgb(30, 17, 145);
+            color: mediumseagreen;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Products</li>
+                <li>Services</li>
+                <li>Contact us</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, inventore iure placeat, atque sit recusandae iste itaque, tempore aut asperiores ex non saepe. Atque corporis quis sequi quidem cumque animi ipsum quos fuga rerum.</p>
+        <div class="box">
+            I am a box?
+        </div>
+        <div class="box2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga dolores voluptate quibusdam eveniet sapiente eaque autem, consequuntur, exercitationem dignissimos error aliquid quos. Ullam, libero hic voluptas ex iusto possimus magni praesentium sint veniam illo?</div>
+    </div>
+    <ul>
+        <li>Apple</li>
+        <li>Bananas</li>
+        <li>Oranges</li>
+    </ul>
+</body>
+
+</html>

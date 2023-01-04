@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid template columnrow</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: grid;
+            background-color: rgb(80, 8, 8);
+            grid-row-gap: 5px;
+            grid-column-gap: 9px;
+            grid-template-columns: 100px 200px auto;
+            /* The grid-template-columns CSS property defines the line names and track sizing functions of the grid columns. */
+        }
+        .item{
+            background-color: #fff;
+            border-radius: 3px;
+            border: 3px solid rgb(16, 214, 115);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+</body>
+</html>

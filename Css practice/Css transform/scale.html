@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform-scale</title>
+    <style>
+        .container{
+            background-color: red;
+            height: 30vh;
+        }
+        .box{
+            border: 4px solid black;
+            transform: translate(50px, 100px);
+            /* transform: scale(2,3); */
+            /* The transform: scale property is used to specify the amount by which an element should be scaled.Here we use two values for x and y directions */
+            /* transform: scaleX(2); */
+            /*  we can give the values in x axis seperately and can use the values in decmals too*/
+            transform: scaleY(2);
+            /* Here we are injecting values in y axis */  
+        }
+    </style>  
+</head>
+<body>
+    <div class="container">
+        <div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore earum quia tempore, omnis labore, placeat illum dignissimos eos error asperiores a eligendi, modi accusantium corporis nihil totam recusandae reprehenderit beatae!</div>
+    </div>
+</body>
+</html>

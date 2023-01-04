@@ -21,8 +21,8 @@
             .box {
             background-color: black;
             color: beige;
-            width: 20vw;
-            height: 20vh;
+            width: 30vw;
+            height: 30vh;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -32,24 +32,24 @@
             animation-delay: 1s;
             animation-iteration-count: 3;
             animation-direction: alternate-reverse; */
-            animation: widthanimate 3s ease-in 0.5s 2 reverse;
+            animation: widthanimate 1s ease-in-out 0.5s 6 alternate-reverse;
         } 
 
         img {
-            width: 20vw;
-            height: 20vh;
-            animation: heightanimate 3s ease-in 0.5s 2 reverse;
+            width: 30vw;
+            height: 30vh;
+            animation: heightanimate 1s ease-in-out 0.5s 6 alternate-reverse;
         }
 
          @keyframes widthanimate {
             from {
                 width: 30vw;
-                height: 50vh;
+                height: 30vh;
             }
 
             to {
                 width: 100vw;
-                height: 100vh;
+                height: 50vh;
                 ;
             }
         } 
@@ -57,11 +57,11 @@
         @keyframes heightanimate{
             from{
                 width: 30vw;
-                height: 50vh;
+                height: 30vh;
             }
             to{
                 width: 100vw;
-                height: 100vh;
+                height: 50vh;
             }
         }
     </style>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            /* The display CSS property sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex. */
+            flex-direction: column;
+            /* The flex-direction CSS property sets how flex items are placed in the flex container defining the main axis and the direction (normal or reversed). */
+        }
+        .box1{
+            background-color: black;
+            color: aliceblue;
+            border: 3px solid yellow;
+            height: 30vh;
+            width: 20vw;
+           
+        }
+        .box2{
+            background-color: blueviolet;
+            color: bisque;
+            border: 3px solid green;
+            height: 30vh;
+            width: 20vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, sint.</div>
+        <div class="box2">Lorem ipsum dolor sit amet.</div>
+       <div class="box2">Lorem ipsum dolor sit amet consectetur.</div>
+       <div class="box2">Lorem, ipsum dolor.</div>
+    </div>
+</body>
+</html>

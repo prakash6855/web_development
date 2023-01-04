@@ -1,0 +1,16 @@
+#first{
+    background-color: pink;
+}
+/* here in the first id it will not show the color i.e. aquamaring because it is commented in the html file*/
+#second{
+    background-color: green;
+    color: orange;
+}
+.bg-yellow{
+    background-color: blueviolet;
+    color:whitesmoke;
+}
+.red{
+    background-color: blue;
+    color:black;
+}

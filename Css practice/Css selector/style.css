@@ -1,0 +1,14 @@
+/* group selectors are used here to write the tags in a single line as written bellow */
+h1,h2,h3 {
+    color: maroon
+}
+
+#red{
+    background-color: black;
+    color:white;
+}
+/* we can change the color of the class and tags in a single line as written bellow */
+p,.abc{
+    background-color: brown;
+    color: yellow;
+}

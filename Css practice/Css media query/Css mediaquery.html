@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <style>
+        .container {
+            background-color: green;
+            height: 50vh;
+        }
+        @media screen and (max-width: 600px) {
+            body {
+                background-color: blue;
+            }
+        }
+        /* Note:The @media rule in CSS allows you to specify different styles for different media types or devices. The @media rule is used in conjunction with a media query, which defines the conditions under which the styles should be applied.
+        Here in the above line if the maximum value of screen size for color blue is 600px but if it exceeds then it will turned on to green color */
+    </style>
+</head>
+<body>
+    <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur, alias quo ratione
+        rem inventore. Est, inventore laboriosam illum iste alias obcaecati laborum dignissimos, ea dolorem fugit aut
+        nesciunt quibusdam.</div>
+</body>
+
+</html>

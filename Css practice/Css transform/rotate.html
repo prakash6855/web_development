@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform property-Rotate</title>
+    <style>
+        .container{
+            background-color: red;
+            height: 30vh;
+        }
+        .box{
+            border: 4px solid black;
+            /* transform: translate(50px, 100px) rotate(0.25turn); */
+            /* If we use rotate value then it will affect the box and for one turn is equals to 360 degrees */
+            transform: translate(50px, 100px) rotate(45deg); 
+            /* If we want to rotate value then we can use the degree also by mentioning the given degrees */
+            transform-origin: 0;
+            /* The transform origin is the point around which a transformation is applied. */
+        }
+    </style>  
+</head>
+<body>
+    <div class="container">
+        <div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore earum quia tempore, omnis labore, placeat illum dignissimos eos error asperiores a eligendi, modi accusantium corporis nihil totam recusandae reprehenderit beatae!</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform-3d</title>
+    <style>
+        .container {
+            background-color: red;
+            height: 455px;
+
+        }
+
+        .box {
+            border: 2px solid black;
+            display: inline-block;
+        }
+
+        img {
+            width: 400px;
+            /* transition-property: width; */
+            /* The transition-property CSS property sets the CSS properties to which a transition effect should be applied. */
+            /* transition-duration: 0.75s; */
+            /*The transition-duration CSS property sets the length of time a transition animation should take to complete.  */
+            /* transition-timing-function: ease-in; */
+            /* The transition-timing-function CSS property sets how intermediate values are calculated for CSS properties being affected by a transition effect. */
+            /* transition-delay: 1s; */
+            /* The transition-delay CSS property specifies the duration to wait before starting a property's transition effect when its value changes. */
+            /* Or we can set the values in following manner which is written in bellow line,here first value denotes property followed by duration,timing function and delay */
+            /* transition: width 0.75s ease-in 1s; */
+            transition: width 0.5s ease-in-out, height 1s ease-in;
+        }
+
+        img:hover {
+            width: 1000px;
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="image.jpg">
+        </div>
+    </div>
+</body>
+
+</html>
