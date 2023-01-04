@@ -1,0 +1,41 @@
+<!-- Create a progress bar using transition -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress bar using transition</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .progress {
+            height: 20px;
+            width: 1px;
+            background-color: red;
+            transition: width 1s ease-out .25s;
+        }
+        .progress:hover{
+            width:100vw;
+        }
+        header {
+            height: 10vh;
+            background-color: yellow;
+        }
+        main {
+            background-color: aquamarine;
+            height: 89vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="progress"></div>
+    <header></header>
+    <main></main>
+</body>
+
+</html>

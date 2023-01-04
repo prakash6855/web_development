@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation shorthand</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background-color: aqua;
+        }
+
+        img {
+            width: 30vw;
+            height: 30vh;
+            animation: heightanimate 1s ease-in 0.25s 6 alternate-reverse;
+        }
+
+        @keyframes heightanimate {
+            0% {
+                width: 0vw;
+                height: 0vh;
+            }
+
+            25% {
+                width: 25vw;
+                height: 25vh;
+            }
+
+            75% {
+                width: 75vw;
+                height: 75vh;
+            }
+
+            100% {
+                width: 100vw;
+                height: 100vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <div class="box">Hi there</div> -->
+        <div class="image"><img
+                src="https://media.istockphoto.com/id/109721217/photo/heart-with-arteries-and-veins.jpg?s=612x612&w=0&k=20&c=pCeXW0DxBUs3qBBwv0k77lB4uF1PVOWrqX7Axf-psaE=" alt="heart image">
+        </div>
+    </div>
+</body>
+
+</html>
