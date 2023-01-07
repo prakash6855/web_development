@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 5px 5px;
+    background-color: #2874f0;
+    color: beige;
+    border-radius: 6px;
+    border-color: rgb(69, 69, 216);
+    cursor: pointer;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+}
+.heading1{
+    margin: 8px 10px -13pxpx -8px;
+}
