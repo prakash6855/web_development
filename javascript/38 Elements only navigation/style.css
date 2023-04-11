@@ -1,6 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .container{
-    background-color: aqua;
     font-size: larger;
     text-align: center;
     font-style: italic;
+}
+ul{
+    display: flex;
+    background-color: rgb(33, 114, 87);
+    margin: 0;
+    padding: 10px;
+}
+ul li{
+    list-style: none;
+    margin: 20px;
+    padding: auto;
+    color: aliceblue;
 }
