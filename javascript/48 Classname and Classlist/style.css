@@ -1,0 +1,17 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .orange{
+    background-color: orange;
+    color: white;
+  }
+  
+  .maroon{
+    background-color: orangered;
+    color: white;
+  }
+  .letter-dark{
+    color: black;
+  }
