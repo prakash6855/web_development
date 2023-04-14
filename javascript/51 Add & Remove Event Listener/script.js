@@ -1,5 +1,5 @@
 /*
-//Adding and removing event listener
+// Adding and removing event listener
 
 
 let a = function(e){
