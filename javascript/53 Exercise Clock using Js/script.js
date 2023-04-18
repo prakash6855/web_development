@@ -1,24 +1,32 @@
-// let a = new Date();
-// let d = a.getDate();
-// let h = a.getHours();
-// let m = a.getMinutes();
-// let s = a.getSeconds();
-// console.log(d+":"+h+":"+m+":"+s);
-
-function updateClock() {
+function getDateTime() {
     var now = new Date();
-    var hours = now.getHours();
-    var minutes = now.getMinutes();
-    var seconds = now.getSeconds();
+    var year = now.getFullYear();
+    var month = now.getMonth() + 1;
+    var day = now.getDate();
+    var hour = now.getHours();
+    var minute = now.getMinutes();
+    var second = now.getSeconds();
+    if (month.toString().length == 1) {
+        month = '0' + month;
+    }
+    if (day.toString().length == 1) {
+        day = '0' + day;
+    }
+    if (hour.toString().length == 1) {
+        hour = '0' + hour;
+    }
+    if (minute.toString().length == 1) {
+        minute = '0' + minute;
+    }
+    if (second.toString().length == 1) {
+        second = '0' + second;
+    }
+    var dateTime = year + '/' + month + '/' + day + ' ' + hour + ':' + minute + ':' + second;
+    return dateTime;
+}
 
-    // Format the time values to ensure they have two digits
-    hours = hours < 10 ? "0" + hours : hours;
-    minutes = minutes < 10 ? "0" + minutes : minutes;
-    seconds = seconds < 10 ? "0" + seconds : seconds;
-
-    // Update the HTML element with the formatted time
-    document.getElementById("clock").innerHTML = hours + ":" + minutes + ":" + seconds;
-  }
-
-  // Update the clock every second
-  setInterval(updateClock, 1000);
+// example usage: realtime clock
+setInterval(function () {
+    currentTime = getDateTime();
+    document.getElementById("time").innerHTML = currentTime;
+}, 1000);
