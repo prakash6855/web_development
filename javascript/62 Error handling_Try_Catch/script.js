@@ -3,6 +3,7 @@
 setTimeout(()=>{
     console.log("Hacking wifi")
 }, 1000);
+
 try{
     console.log(user);
 }
