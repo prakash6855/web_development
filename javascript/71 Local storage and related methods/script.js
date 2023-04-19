@@ -17,6 +17,10 @@ if (key == "red" || key == "pink"){
 if(key == 0){
     localStorage.clear();
 }
+
+// key() method:-----Gives the key on the given position
+localStorage.key(0)//0 here is index value
+
 //.length:------This method describes the number of stored items
 localStorage.length;
 
