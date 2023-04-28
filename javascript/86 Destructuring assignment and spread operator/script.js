@@ -29,4 +29,4 @@ let obj2 = {
 }
 
 console.log({...obj2, name: "vikas", age: "25"})
-console.log({name: "vikas", age: "25", ...obj2,})// It will print the obj2 without anu change
+console.log({name: "vikas", age: "25", ...obj2,})// It will print the obj2 without any change
