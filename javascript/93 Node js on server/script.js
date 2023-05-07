@@ -1,1 +1,1 @@
-console.log("Welcome to the world of node js");
+console.log("Welcome to node js");
