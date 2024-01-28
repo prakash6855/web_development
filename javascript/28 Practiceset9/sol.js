@@ -55,7 +55,7 @@ console.log(res);
 //Question:--- Use reduce to calculate factorial of a given number from an array of first n natural numbers (n being the number whose factorial needs to be calculated)
 
 let arra = [2, 5, 7, 9, 10];
-let outcome = arr.reduce((x1, x2)=>{
+let outcome = arra.reduce((x1, x2)=>{
   return x1 * x2;
 });
 console.log(outcome);
